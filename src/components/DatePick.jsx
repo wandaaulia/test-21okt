@@ -1,8 +1,7 @@
-import React, { useState, forwardRef } from 'react'
+import React from 'react'
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
-import { getMonth, getYear } from 'date-fns';
-import { MdDateRange, MdKeyboardArrowUp } from "react-icons/md";
+import { MdKeyboardArrowUp } from "react-icons/md";
 
 
 const DatePic = ({ date, isWeekday, handleChangeDate }) => {
