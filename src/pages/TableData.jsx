@@ -114,7 +114,7 @@ const TableData = () => {
             <MdDateRange size={24} className='text-[#7186A7] mr-[8px]' />
             <DatePic date={date} isWeekday={isWeekday} handleChangeDate={handleChangeDate} />
           </div>
-          <label className='text-[#7186A7] albert-sans-fontnormal text-[12px] leading-[18px]'> Start date </label>
+          <label className='text-[#7186A7] albert-sans-fontnormal text-[12px] leading-[18px]'> End date </label>
           <div className='relative flex flex-row w-[300px] justify-around items-center bg-[#27303F] border border-solid border-[#506281] rounded-[8px] px-[10px] py-[7px]'>
             <MdDateRange size={24} className='text-[#7186A7] mr-[8px]' />
             <DatePic date={endDate} isWeekday={isEndWeekday} handleChangeDate={handleChangeEndDate} />
